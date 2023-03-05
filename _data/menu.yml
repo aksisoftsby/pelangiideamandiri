@@ -1,0 +1,16 @@
+- title: Home
+  url: /index
+- title: Tentang Kami
+  url: /tentang
+- title: Produk
+  url: /produk
+- title: Informasi
+  url: /informasi
+- title: Publikasi
+  url: /news
+- title: Layanan
+  url: /layanan
+- title: Kontak
+  url: /kontak
+- title: GCG
+  url: /gcg

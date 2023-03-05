@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% seo %}
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css/style.css" media="all">
+  <!-- responsive style sheet -->
+  <link rel="stylesheet" type="text/css" href="/css/responsive.css" media="all">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- For Resposive Device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- For Window Tab Color -->
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#1d2b40">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#1d2b40">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#1d2b40">
+
+  <!-- Fix Internet Explorer ______________________________________-->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="vendor/html5shiv.js"></script>
+    <script src="vendor/respond.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+<body>
+  <div class="main-page-wrapper">
+
+    {% include part/preloader.html %}
+    {% include part/header-menu.html %}
+
+    {% if page.is_home %}
+    {% include part/hero-banner.html %}
+    {% endif %}
+
+    {{ content }}
+
+
+
+
+    <!--
+			=====================================================
+				Fancy Short Banner Four
+			=====================================================
+			-->
+    <div class="fancy-short-banner-four position-relative pt-50">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 m-auto">
+            <div class="row gx-xxl-5">
+              <div class="col-md-6 d-flex">
+                <div class="address-block-one">
+                  <div class="icon position-absolute"><img src="images/lazy.svg" data-src="/ideaimage/icon_37.svg"
+                      alt="" class="lazy-img"></div>
+                  <div class="text-meta">
+                    <h4 class="title">Alamat</h4>
+                    <p class="fs-18">Jln.Tarumanegara, Taman Pesona Cirendeu Town House Blok A.4, Cirendeu
+                      <br>Ciputat Timur Tangerang Selatan. 15419
+                    </p>
+                  </div> <!-- /.text-meta -->
+                </div>
+              </div>
+              <div class="col-md-6 d-flex">
+                <div class="address-block-one">
+                  <div class="icon position-absolute"><img src="images/lazy.svg" data-src="/ideaimage/icon_38.svg"
+                      alt="" class="lazy-img"></div>
+                  <div class="text-meta">
+                    <h4 class="title">Contact Info</h4>
+                    <p class="fs-18">Open a chat or give us call at <br><a href="/">08179988886</a></p>
+                  </div> <!-- /.text-meta -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- /.fancy-short-banner-four -->
+
+
+    <!--
+			=====================================================
+				Footer
+			=====================================================
+			-->
+    <div class="footer-style-three position-relative">
+      <div class="container">
+        <div class="row">
+
+        </div>
+      </div>
+      <div class="bottom-footer mt-80 lg-mt-50">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="logo d-flex justify-content-center justify-content-lg-start"><a href="{{site.url}}"><img
+                    src="/ideaimage/logo-pelangi-idea-mandiri-black-1.png" alt="" width="200"></a></div>
+            </div>
+            <div class="col-lg-4 text-center md-mt-30 md-mb-30">
+              <h4 class="text-white">Find us on social media</h4>
+              <ul class="d-flex justify-content-center social-icon style-none">
+                <li><a href="index-3.html#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="index-3.html#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="index-3.html#"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 text-center">
+              <h4 class="text-white">We’r always happy to help.</h4>
+              <a href="index-3.html#" class="mail">ask@januinc.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="images/lazy.svg" data-src="/ideaimage/ils_01.svg" alt="" class="lazy-img bg-illustration w-100 shapes">
+    </div> <!-- /.footer-style-three -->
+
+
+    <button class="scroll-top">
+      <i class="bi bi-arrow-up-short"></i>
+    </button>
+
+    <!-- Optional JavaScript _____________________________  -->
+
+    <!-- jQuery first, then Bootstrap JS -->
+    <!-- jQuery -->
+    <script src="/vendor/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- WOW js -->
+    <script src="/vendor/wow/wow.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="/vendor/slick/slick.min.js"></script>
+    <!-- Fancybox -->
+    <script src="/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+    <!-- Lazy -->
+    <script src="/vendor/jquery.lazy.min.js"></script>
+    <!-- js Counter -->
+    <script src="/vendor/jquery.counterup.min.js"></script>
+    <script src="/vendor/jquery.waypoints.min.js"></script>
+    <!-- Theme js -->
+    <script src="/js/theme.js"></script>
+
+  </div> <!-- /.main-page-wrapper -->
+</body>
+
+</html>

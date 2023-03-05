@@ -1,0 +1,71 @@
+<header class="main-header clearfix">
+    <div class="main-header__top">
+        <div class="container">
+            <div class="main-header__top-inner">
+                <div class="main-header__top-address">
+                    <ul class="list-unstyled main-header__top-address-list">
+                        <li>
+                            <i class="icon">
+                                <span class="icon-pin"></span>
+                            </i>
+                            <div class="text">
+                                <p>{{site.data.kontak.alamat}}</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon">
+                                <span class="icon-email"></span>
+                            </i>
+                            <div class="text">
+                                <p><a href="mailto:{{site.data.kontak.email}}">{{site.data.kontak.email}}</a></p>
+                            </div>
+                            <div class="text">
+                                <p><i class="fa fa-phone"></i><a href="tel:{{site.data.kontak.hpgabung}}">
+                                        {{site.data.kontak.hp}}</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-header__top-right">
+                    <div class="main-header__top-social-box">
+                        <div class="main-header__top-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="main-menu clearfix">
+        <div class="main-menu__wrapper clearfix">
+            <div class="container">
+                <div class="main-menu__wrapper-inner clearfix">
+                    <div class="main-menu__left">
+                        <div class="main-menu__logo">
+                            <a href="{{site.url}}"><img src="{{site.url}}{{site.data.web.logo}}" alt=""></a>
+                        </div>
+                        <div class="main-menu__main-menu-box">
+                            <div class="main-menu__main-menu-box-inner">
+                                <a href="index.html#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                <ul class="main-menu__list">
+                                    {% for m in site.data.menu %}
+                                    <li><a href="{{site.url}}/{{m.url}}">{{m.title}} </a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="main-menu__main-menu-box-search-get-quote-btn"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="stricky-header stricked-menu main-menu">
+    <div class="sticky-header__content"></div>
+</div>

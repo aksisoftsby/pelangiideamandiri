@@ -1,0 +1,26 @@
+<section class="feature-one">
+    <div class="container">
+        <div class="feature-one__inner">
+            <div class="row">
+                {% assign prodlist = site.produk | sort:"weight" %}
+                {% for p in prodlist %}
+                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="feature-one__single">
+                        <div class="feature-one__single-inner">
+                            <div class="feature-one__icon">
+                                <span class="{{ p.icon }}"></span>
+                            </div>
+                            <div class="feature-one__count"></div>
+                            <div class="feature-one__shape">
+                                <img src="{{site.cdn}}assets/images/shapes/feature-one-shape-1.png" alt="">
+                            </div>
+                            <h3 class="feature-one__title"><a href="{{p.url}}">{{p.title}}</a></h3>
+                            <p class="feature-one__text">{{p.short}}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
