@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Recoleta';
+    src: url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Thin.eot');
+    src: local('Recoleta Thin'), local('Recoleta-Thin'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Thin.eot?') format('embedded-opentype'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Thin.woff2') format('woff2'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Thin.woff') format('woff'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Light.eot');
+    src: local('Recoleta Light'), local('Recoleta-Light'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Light.eot?') format('embedded-opentype'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Light.woff2') format('woff2'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Light.woff') format('woff'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Regular.eot');
+    src: local('Recoleta Regular'), local('Recoleta-Regular'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Regular.eot?') format('embedded-opentype'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Regular.woff2') format('woff2'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Regular.woff') format('woff'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Medium.eot');
+    src: local('Recoleta Medium'), local('Recoleta-Medium'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Medium.eot?') format('embedded-opentype'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Medium.woff2') format('woff2'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Medium.woff') format('woff'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-SemiBold.eot');
+    src: local('Recoleta SemiBold'), local('Recoleta-SemiBold'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-SemiBold.eot?') format('embedded-opentype'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-SemiBold.woff2') format('woff2'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-SemiBold.woff') format('woff'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Bold.eot');
+    src: local('Recoleta Bold'), local('Recoleta-Bold'),
+        url('Recoleta-Bold.eot?') format('embedded-opentype'),
+        url('Recoleta-Bold.woff2') format('woff2'),
+        url('Recoleta-Bold.woff') format('woff'),
+        url('Recoleta-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Black.eot');
+    src: local('Recoleta Black'), local('Recoleta-Black'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Black.eot?') format('embedded-opentype'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Black.woff2') format('woff2'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Black.woff') format('woff'),
+        url('https://html.creativegigstf.com/jano/jano/fonts/recoleta/Recoleta-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
